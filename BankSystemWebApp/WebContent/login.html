@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank System Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="logo">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/013/948/616/small/bank-icon-logo-design-vector.jpg" alt="Bank Logo">
+                <h1>INTERNATIONAL BANK</h1>
+            </div>
+            <form action="LoginServlet" method="post">
+                <input type="number" name="accno" placeholder="Account Number" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit" class="btn">Login</button>
+                <p class="note">Don't have an account? Contact bank branch.</p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

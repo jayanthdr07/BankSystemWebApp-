@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu-box">
+            <div class="logo">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/013/948/616/small/bank-icon-logo-design-vector.jpg" alt="Bank Logo">
+                <h1>INTERNATIONAL BANK</h1>
+            </div>
+            <h2>Account Operations</h2>
+            <form action="AccountServlet" method="post">
+                <input type="number" name="amount" placeholder="Enter Amount" required>
+                <div class="btn-group">
+                    <button type="submit" name="action" value="deposit" class="btn">Deposit</button>
+                    <button type="submit" name="action" value="withdraw" class="btn withdraw">Withdraw</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
