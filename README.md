@@ -26,5 +26,14 @@ The backend uses Java Servlets to handle account operations and session manageme
 - **Development Environment:** Eclipse IDE / IntelliJ IDEA  
 
 ---
+## Future Enhancements
+
+- Convert backend to Spring Boot REST API for cloud deployment
+- Add database support (MySQL/PostgreSQL) for persistent accounts
+- Add transaction history
+- Add registration page for new users
+---
+## Author
+**JAYANTH D R**
 
 
